@@ -31,6 +31,7 @@ export default function Banner() {
   const truncate = (str, n) => {
     return str?.length > n ? str.substr(0, n - 1) + "..." : str;
   };
+  
 
   console.log('movie',movie);
   if (!isClicked) {
@@ -88,7 +89,6 @@ const Iframe = styled.iframe`
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: 0.65;
   border: none;
 
   &::after {
