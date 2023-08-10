@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import "./Footer.css";
 export default function Footer() {
   return (
     <FooterContainer>
@@ -34,7 +34,6 @@ align-items:center;
 padding: 40px 0;
 border-top: 1x solid rgb(25,25,25);
 width:100%;
-position: relative;
 z-index: 100;
 @media (max-width: 769px) {
     padding: 20px 20px;

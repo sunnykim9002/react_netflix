@@ -1,4 +1,4 @@
-import {  BrowserRouter as Router,  Routes,  Route} from "react-router-dom";
+import {  Outlet, Routes,  Route} from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
@@ -11,7 +11,7 @@ const Layout = () => {
     <div>
       <Nav />
 
-
+      <Outlet />
       <Footer />
     </div>
   );
@@ -20,7 +20,6 @@ const Layout = () => {
 function App() {
   return (
     <div className="app">
-      <Router>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<MainPage />} />
@@ -28,7 +27,6 @@ function App() {
             <Route path="search" element={<SearchPage />} />
           </Route>
         </Routes>
-      </Router>
     </div>
   );
 }
