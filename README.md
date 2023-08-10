@@ -1,3 +1,6 @@
+## 배포주소 
+https://sunnykim9002.github.io/react_netflix/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
