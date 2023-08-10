@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import "./Nav.css";
 
 export default function Nav() {
@@ -33,9 +33,8 @@ export default function Nav() {
         alt="Netflix logo"
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/170px-Netflix_2015_logo.svg.png"
         className="nav__logo"
-        onClick={() => (window.location.href = "/")}
+        onClick={() => (window.location.href = "/react_netflix")}
       />
-
       <input
         value={searchValue}
         onChange={handleChange}

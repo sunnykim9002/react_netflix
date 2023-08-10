@@ -4,6 +4,7 @@ nav {position: fixed; top: 0; width: 100%; height: 30px; z-index: 10; padding: 2
 .nav__black {
     background-color: black;
 }
+
 .nav__input {
     background: black;
     border: none;
@@ -11,8 +12,14 @@ nav {position: fixed; top: 0; width: 100%; height: 30px; z-index: 10; padding: 2
     opacity: 0.5;
     border-radius: 5px;
     padding-left: 10px;
+    color: white;
 }
 
 .nav__black .nav__input {
     background: white;
+    color: black;
+}
+
+.nav__logo {
+    cursor: pointer;
 }
