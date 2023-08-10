@@ -1,4 +1,4 @@
-import { BrowserRouter as Outlet, Router, Routes, Route } from "react-router-dom";
+import {  BrowserRouter as Router,  Routes,  Route} from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
@@ -11,7 +11,6 @@ const Layout = () => {
     <div>
       <Nav />
 
-      <Outlet />
 
       <Footer />
     </div>
